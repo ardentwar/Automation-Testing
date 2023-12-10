@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Debug" verbose="1">
+
+<test name="Exceptions" >
+	<groups>
+		<run>
+		<include name = "noSuchElementExceptionsTest" ></include>
+		</run>
+		</groups>
+    <classes>
+       <class name="com.herokuapp.theinternet.Exceptions" />
+    </classes>
+  </test>
+</suite>
